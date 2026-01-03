@@ -130,7 +130,7 @@ Try asking the chatbot:
 ### LLM Model
 The project uses `mistralai/mistral-7b-instruct` via OpenRouter. To change the model:
 
-1. Edit `nlttosql_display.py` or `nlttosql.py`
+1. Edit `nlttosql_display.py` 
 2. Change the `model` parameter in ChatOpenAI initialization
 3. Available OpenRouter models: https://openrouter.ai/models
 
@@ -174,7 +174,6 @@ Adjust the `temperature` parameter (0-1) for more/less creative responses:
 |------|---------|
 | `main.py` | Configuration test and entry point |
 | `sqldata.py` | Loads CSV and creates SQLite database |
-| `nlttosql.py` | CLI tool for NL to SQL conversion |
 | `nlttosql_display.py` | Streamlit web application |
 | `view_data.sql` | Sample SQL queries for verification |
 | `bollywood_movie.csv` | Source dataset |
