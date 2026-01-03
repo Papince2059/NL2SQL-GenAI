@@ -1,0 +1,8 @@
+pandas
+python-dotenv
+streamlit
+langchain
+openai
+ollama
+langchain-openai
+langchain-ollama
