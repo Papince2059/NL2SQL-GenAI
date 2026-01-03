@@ -19,14 +19,12 @@ This project converts natural language questions into SQL queries using an LLM (
 ```
 SQL_Chat/
 ├── main.py                 # Entry point / Configuration test
-├── sqldata.py             # CSV to SQLite database conversion
-├── nlttosql.py            # Command-line NL to SQL converter
-├── nlttosql_display.py    # Streamlit web app (main interface)
-├── view_data.sql          # SQL queries to view database content
-├── bollywood_movie.csv    # Source data file
-├── bollywood_movies1.db   # SQLite database (generated)
-├── requirements.txt       # Python dependencies
-└── .env                   # Environment variables (API keys)
+├── sqldata.py              # CSV -> SQLite database conversion
+├── nlttosql_display.py     # Streamlit web app (main interface)
+├── view_data.sql           # SQL queries to view database content
+├── bollywood_movie.csv     # Source data file
+├── requirements.txt        # Python dependencies
+└── .env                    # Environment variables (API keys, DO NOT commit)
 ```
 
 ## Requirements
